@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/.teamcity.iml" filepath="$PROJECT_DIR$/.idea/.teamcity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kotlin_dsl.iml" filepath="$PROJECT_DIR$/Kotlin_dsl.iml" />
     </modules>
   </component>
 </project>
