@@ -36,6 +36,13 @@ object Build : BuildType({
     name = "Build"
     description = "sesame icecream is the best"
     id("Build")
+
+    params {
+        password("123",
+            "credentialsJSON:cbe14301-fc8e-41ec-96e4-e272fe41beb2",
+            display = ParameterDisplay.HIDDEN)
+    }
+
     steps {
         script {
             name = "Set version using script"
